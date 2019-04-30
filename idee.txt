@@ -1,0 +1,1 @@
+Ogni pedina è un kactor e ha il suo albero di ricerca
