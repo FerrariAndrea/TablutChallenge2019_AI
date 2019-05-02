@@ -9,10 +9,10 @@ import it.unibo.ai.didattica.competition.tablut.client.TablutClient;
 import it.unibo.ai.didattica.competition.tablut.domain.Action;
 import it.unibo.ai.didattica.competition.tablut.domain.StateTablut;
 
-public class AIBalck extends TablutClient {
+public class AIBlack extends TablutClient {
 
-	public AIBalck() throws UnknownHostException, IOException {
-		super("black", "AIBalck");
+	public AIBlack() throws UnknownHostException, IOException {
+		super("black", "AIBlack");
 		// TODO Auto-generated constructor stub
 	}
 

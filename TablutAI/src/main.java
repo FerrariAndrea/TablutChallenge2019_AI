@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.net.UnknownHostException;
 
-import giocatori.AIBalck;
+import giocatori.AIBlack;
 import it.unibo.ai.didattica.competition.tablut.client.TablutHumanClient;
 
 public class main {
@@ -9,7 +9,7 @@ public class main {
 		//String[] array = new String[]{"WHITE"};
 		//TablutHumanClient.main(array);
 		
-		new AIBalck().run();
+		new AIBlack().run();
 	}
 	
 }
