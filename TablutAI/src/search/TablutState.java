@@ -9,7 +9,7 @@ import aima.core.search.framework.problem.StepCostFunction;
 
 
 
-public class MCState 
+public class TablutState 
 	implements 	GoalTest,
 					StepCostFunction,
 					HeuristicFunction {
@@ -110,7 +110,7 @@ public class MCState
 	 * 
 	 * It initializes the problem in the classic configuration (3,3,1).
 	 */
-	public MCState() {
+	public TablutState() {
 		this(3, 3, 3, 3, true);
 	}
 
@@ -120,7 +120,7 @@ public class MCState
 	 * Used for generating new states, as well as for creating different 
 	 * instances of the problem (with more people, and maybe on different shores)
 	 */
-	public MCState( int totMissionars,
+	public TablutState( int totMissionars,
 												int totCannibals,
 												int missionarsOnThisShore,
 												int cannibalsOnThisShore,
@@ -142,8 +142,8 @@ public class MCState
 * Methods for the interface GoalTest
 /*****************************************************************************/
 	public boolean isGoalState(Object state) {
-		if (state instanceof MCState) {
-			MCState mcState = (MCState) state;
+		if (state instanceof TablutState) {
+			TablutState mcState = (TablutState) state;
 		   return (		(mcState.missionars == 0) && 
 		    				(mcState.cannibals == 0) &&
 							(mcState.posBoat == false)
@@ -179,8 +179,8 @@ public class MCState
 /*****************************************************************************/
  	// This is the same proposed by Russell-Norvig
 	public double getHeuristicValue(Object state) {
-		if (state instanceof MCState) {
- 			MCState mcState = (MCState) state;
+		if (state instanceof TablutState) {
+ 			TablutState mcState = (TablutState) state;
  			int hVal = mcState.missionars + mcState.cannibals - (mcState.posBoat? 1:0);
  			return hVal;
  		}
@@ -200,7 +200,7 @@ public class MCState
 	}
 
  	public boolean equals(Object o1) {
- 		MCState temp = (MCState) o1; 
+ 		TablutState temp = (TablutState) o1; 
  		if (	(this.missionars == temp.missionars) &&
  				(this.cannibals == temp.cannibals) &&
 				(this.posBoat == temp.posBoat))

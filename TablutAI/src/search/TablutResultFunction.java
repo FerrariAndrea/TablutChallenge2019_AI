@@ -4,21 +4,21 @@ import aima.core.agent.Action;
 import aima.core.search.framework.problem.ResultFunction;
 
 
-public class MCResultFunction implements ResultFunction {
+public class TablutResultFunction implements ResultFunction {
 
 	
 	public Object result(Object o, Action a) {
 		
-		MCState mcState = (MCState) o;
-		if (MCActionsFunction.MC.equals(a))
+		TablutState mcState = (TablutState) o;
+		if (TablutActionsFunction.MC.equals(a))
 			return moveMC(mcState);
-		if (MCActionsFunction.MM.equals(a))
+		if (TablutActionsFunction.MM.equals(a))
 			return moveMM(mcState);
-		if (MCActionsFunction.CC.equals(a))
+		if (TablutActionsFunction.CC.equals(a))
 			return moveCC(mcState);
-		if (MCActionsFunction.M.equals(a))
+		if (TablutActionsFunction.M.equals(a))
 			return moveM(mcState);
-		if (MCActionsFunction.C.equals(a))
+		if (TablutActionsFunction.C.equals(a))
 			return moveC(mcState);
 		
 		//noOp
@@ -27,75 +27,75 @@ public class MCResultFunction implements ResultFunction {
 	
 
 
-	private MCState moveMC(MCState mcState) {
+	private TablutState moveMC(TablutState mcState) {
 		if (mcState.isPosBoat())
- 			return new MCState(mcState.getTotMissionars(),
+ 			return new TablutState(mcState.getTotMissionars(),
  															mcState.getTotCannibals(),
 															mcState.getMissionars() - 1,
 															mcState.getCannibals() - 1,
 															! mcState.isPosBoat());
  		else
- 			return new MCState(mcState.getTotMissionars(),
+ 			return new TablutState(mcState.getTotMissionars(),
 															mcState.getTotCannibals(),
 															mcState.getMissionars() + 1,
 															mcState.getCannibals() + 1,
 															! mcState.isPosBoat());
  	}
 	
- 	private MCState moveMM(MCState mcState) {
+ 	private TablutState moveMM(TablutState mcState) {
  		if (mcState.isPosBoat())
- 			return new MCState(mcState.getTotMissionars(),
+ 			return new TablutState(mcState.getTotMissionars(),
 															mcState.getTotCannibals(),
 															mcState.getMissionars() - 2,
 															mcState.getCannibals(),
 															! mcState.isPosBoat());
  		else
- 			return new MCState(mcState.getTotMissionars(),
+ 			return new TablutState(mcState.getTotMissionars(),
 															mcState.getTotCannibals(),
 															mcState.getMissionars() + 2,
 															mcState.getCannibals(),
 															! mcState.isPosBoat());
  	}
 
- 	private MCState moveCC(MCState mcState) {
+ 	private TablutState moveCC(TablutState mcState) {
  		if (mcState.isPosBoat())
- 			return new MCState(mcState.getTotMissionars(),
+ 			return new TablutState(mcState.getTotMissionars(),
 															mcState.getTotCannibals(),
 															mcState.getMissionars(),
 															mcState.getCannibals() - 2,
 															! mcState.isPosBoat());
  		else
- 			return new MCState(mcState.getTotMissionars(),
+ 			return new TablutState(mcState.getTotMissionars(),
 															mcState.getTotCannibals(),
 															mcState.getMissionars(),
 															mcState.getCannibals() + 2,
 															! mcState.isPosBoat());
  	}
 	
- 	private MCState moveM(MCState mcState) {
+ 	private TablutState moveM(TablutState mcState) {
  		if (mcState.isPosBoat())
- 			return new MCState(mcState.getTotMissionars(),
+ 			return new TablutState(mcState.getTotMissionars(),
 															mcState.getTotCannibals(),
 															mcState.getMissionars() - 1,
 															mcState.getCannibals(),
 															! mcState.isPosBoat());
  		else
- 			return new MCState(mcState.getTotMissionars(),
+ 			return new TablutState(mcState.getTotMissionars(),
 															mcState.getTotCannibals(),
 															mcState.getMissionars() + 1,
 															mcState.getCannibals(),
 															! mcState.isPosBoat());
  	}
  	
- 	private MCState moveC(MCState mcState) {
+ 	private TablutState moveC(TablutState mcState) {
  		if (mcState.isPosBoat())
- 			return new MCState(mcState.getTotMissionars(),
+ 			return new TablutState(mcState.getTotMissionars(),
 															mcState.getTotCannibals(),
 															mcState.getMissionars(),
 															mcState.getCannibals() - 1,
 															! mcState.isPosBoat());
  		else
- 			return new MCState(mcState.getTotMissionars(),
+ 			return new TablutState(mcState.getTotMissionars(),
 															mcState.getTotCannibals(),
 															mcState.getMissionars(),
 															mcState.getCannibals() + 1,
