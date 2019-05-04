@@ -31,7 +31,7 @@ public class TablutActionsFunction implements ActionsFunction {
 	
 //	@Override
 	public Set<Action> actions(Object o) {
-		TablutState mcState = (TablutState) o;
+		BlackTablutState mcState = (BlackTablutState) o;
 		Set<Action> result = new LinkedHashSet<Action>();
 		/*
 				if (canMoveMC(mcState))
