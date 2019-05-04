@@ -1,0 +1,63 @@
+###############################
+#Strategie suddivise e in ordine numerico per importanza
+#prima le generali poi le specifiche
+###############################
+#
+#############################GENERALI (sia per NERO che per BIANCO)
+2)Mai tenere le pedine separate da un solo spazio in nessuna direzioe
+	esempio:
+			-------
+			-N-N---
+			-------
+	oppure:
+			-------
+			--N----
+			-------
+			--N----
+	In modo da non consentire all'avversario di immettersi tra le due 
+	impossibilitando la sua uccisione
+1)Mangiare il nemico
+#############################NERO
+1)Maggiore numero di pedine vicine al re
+2)bloccare la strada anche da lontano al re
+#############################BIANCO
+3)Allontanare la pedina, più vicina a un bordo e pià lontana dai neri, dal re
+4)Avvicinare il rè al bordo
+5)Avvicinare le pedine, più vicine ai neri e lontane dal re, al re
+1)Fare meta col rè (sul bordo)
+2)Spostare la pedina che impedisce di fare metà al rè
+#
+#
+#
+##############################STRATEGIE-INIZIALI
+########NERO
+all'inizio iniziare a decimare i bianchi che rimangono fermi
+esempio:
+			
+
+
+STATO INIZIALE:
+						O	O	O	B	B	B	O	O	O
+						O	O	O	O	B	O	O	O	O	
+						O	O	O	O	W	O	O	O	O
+						B	O	O	O	W	O	O	O	B
+						B	B	W	W	K	W	W	B	B
+						B	O	O	O	W	O	O	O	B
+						O	O	O	O	W	O	O	O	O
+						O	O	O	O	B	O	O	O	O
+						O	O	O	B	B	B	O	O	O
+Muovo A6->C6
+Muovo A4->C4
+la X rappresenta la pedina bianca uccisa!
+						O	O	O	B	B	B	O	O	O
+						O	O	O	O	B	O	O	O	O	
+						O	O	O	O	W	O	O	O	O
+						O	O	B	O	W	O	O	O	B
+						B	B	X	W	K	W	W	B	B
+						O	O	B	O	W	O	O	O	B
+						O	O	O	O	W	O	O	O	O
+						O	O	O	O	B	O	O	O	O
+						O	O	O	B	B	B	O	O	O
+
+
+	
