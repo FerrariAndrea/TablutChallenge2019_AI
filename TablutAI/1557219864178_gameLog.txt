@@ -1,0 +1,50 @@
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut <init>
+BUONO: Inizio partita
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Giocatore B cerca di muovere una pedina avversaria
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 07, 2019 11:04:24 AM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata

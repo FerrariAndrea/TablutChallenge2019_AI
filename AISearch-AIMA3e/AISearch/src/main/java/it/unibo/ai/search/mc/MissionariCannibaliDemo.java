@@ -72,7 +72,7 @@ public class MissionariCannibaliDemo {
 				System.out.println("\nPress enter to execute Depth First Search (Graph Search)...");
 				br.readLine();
 				System.out.println("\nDepth First (Graph Search):");
-				DepthFirstSearch search = new DepthFirstSearch(new GraphSearch());
+				DepthFirstSearch search = new DepthFirstSearch(new GraphSearch());				
 				agent = new SearchAgent(problem, search);
 				printActions(agent.getActions());
 				printInstrumentation(agent.getInstrumentation());
@@ -82,7 +82,8 @@ public class MissionariCannibaliDemo {
 				System.out.println("\nPress enter to execute Depth First (without repetition checks):");
 				br.readLine();
 				System.out.println("\nDepth First (without repetition checks):");
-				DepthFirstSearch search = new DepthFirstSearch(new TreeSearch());
+				DepthLimitedSearch search = new DepthLimitedSearch(10);
+				
 				agent = new SearchAgent(problem, search);
 				printActions(agent.getActions());
 				printInstrumentation(agent.getInstrumentation());

@@ -5,9 +5,17 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.UnknownHostException;
 
+import aima.core.agent.impl.DynamicAction;
+import aima.core.search.framework.SearchAgent;
+import aima.core.search.framework.problem.Problem;
+import aima.core.search.uninformed.DepthLimitedSearch;
 import it.unibo.ai.didattica.competition.tablut.client.TablutClient;
 import it.unibo.ai.didattica.competition.tablut.domain.Action;
 import it.unibo.ai.didattica.competition.tablut.domain.StateTablut;
+import it.unibo.ai.didattica.competition.tablut.domain.State.Turn;
+import search.AITablutState;
+import search.BlackActionsFunction;
+import search.TablutResultFunction;
 
 public class AIBlack extends TablutClient {
 
@@ -73,12 +81,30 @@ public class AIBlack extends TablutClient {
 					System.out.println(this.getCurrentState().toString());
 					if (this.getCurrentState().getTurn().equals(StateTablut.Turn.BLACK)) {
 						System.out.println("Player " + this.getPlayer().toString() + ", do your move: ");
+						/*
 						System.out.println("From: ");
 						actionStringFrom = in.readLine();
 						System.out.println("To: ");
 						actionStringTo = in.readLine();
 						action = new Action(actionStringFrom, actionStringTo, this.getPlayer());
-						this.write(action);
+						*/
+						AITablutState initState= new AITablutState(false);
+						Problem problem = new Problem(initState,
+								new BlackActionsFunction(),
+								new TablutResultFunction(),
+								initState,
+								initState);
+						DepthLimitedSearch search = new DepthLimitedSearch(10);
+						SearchAgent agent = new SearchAgent(problem, search);
+						String name=((DynamicAction)agent.getActions().get(0)).getName();
+						Action aiAction;
+						
+						if(name.charAt(4)=='B') {
+							aiAction= new Action(name.substring(0,2),name.substring(2,4),Turn.BLACK);
+						}else {
+							aiAction= new Action(name.substring(0,2),name.substring(2,4),Turn.BLACK);				
+						}
+						this.write(aiAction);
 					} else if (this.getCurrentState().getTurn().equals(StateTablut.Turn.WHITE)) {
 						System.out.println("Waiting for your opponent move... ");
 					} else if (this.getCurrentState().getTurn().equals(StateTablut.Turn.WHITEWIN)) {
