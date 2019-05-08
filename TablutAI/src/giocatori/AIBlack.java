@@ -14,7 +14,7 @@ import it.unibo.ai.didattica.competition.tablut.domain.Action;
 import it.unibo.ai.didattica.competition.tablut.domain.StateTablut;
 import it.unibo.ai.didattica.competition.tablut.domain.State.Turn;
 import search.AITablutState;
-import search.BlackActionsFunction;
+import search.TablutActionsFunction;
 import search.TablutResultFunction;
 
 public class AIBlack extends TablutClient {
@@ -90,7 +90,7 @@ public class AIBlack extends TablutClient {
 						*/
 						AITablutState initState= new AITablutState(false);
 						Problem problem = new Problem(initState,
-								new BlackActionsFunction(),
+								new TablutActionsFunction(),
 								new TablutResultFunction(),
 								initState,
 								initState);

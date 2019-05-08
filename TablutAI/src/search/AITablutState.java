@@ -18,7 +18,7 @@ public class AITablutState implements GoalTest,StepCostFunction,HeuristicFunctio
 	/*****************************************************************************
 	 * Description of the state of the problem
 	/*****************************************************************************/
-		private  StateTablut state;
+		private  it.unibo.ai.didattica.competition.tablut.domain.State state;
 		private boolean im_white;
 	 
 	/*****************************************************************************
@@ -26,8 +26,14 @@ public class AITablutState implements GoalTest,StepCostFunction,HeuristicFunctio
 	/*****************************************************************************/
 		
 			
-		public StateTablut getState() {
+		public it.unibo.ai.didattica.competition.tablut.domain.State getState() {
 			return state;
+		}
+		public void setState(it.unibo.ai.didattica.competition.tablut.domain.State state) {
+			this.state=state;
+		}
+		public AITablutState getNext(it.unibo.ai.didattica.competition.tablut.domain.State state) {
+			return new AITablutState(state,im_white);
 		}
 		public boolean m_i_white() {
 			return im_white;
@@ -61,7 +67,7 @@ public class AITablutState implements GoalTest,StepCostFunction,HeuristicFunctio
 		 * Generic constructor.
 		 *
 		 */
-		public AITablutState(StateTablut state,boolean im_white) {
+		public AITablutState(it.unibo.ai.didattica.competition.tablut.domain.State state,boolean im_white) {
 			this.state=state;
 			this.im_white= im_white;
 		}
@@ -113,8 +119,8 @@ public class AITablutState implements GoalTest,StepCostFunction,HeuristicFunctio
 	/*****************************************************************************/
 	 	//--------------------------------------------------------------------------------DA FARE
 		public double getHeuristicValue(Object state) {
-			if (state instanceof BlackTablutState) {
-	 			BlackTablutState mcState = (BlackTablutState) state;
+			if (state instanceof AITablutState) {
+				AITablutState mcState = (AITablutState) state;
 	 			int hVal = 0;//mcState.missionars + mcState.cannibals - (mcState.posBoat? 1:0);
 	 			return hVal;
 	 		}

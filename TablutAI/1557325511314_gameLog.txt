@@ -1,0 +1,134 @@
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut <init>
+BUONO: Inizio partita
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut movePawn
+BUONO: Movimento pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkCaptureBlack
+BUONO: Stabilito un pareggio per troppe mosse senza mangiare
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+BUONO: Stato: OOOBBBOOO
+OOOOBOOOO
+OOOOWOOOO
+BBOOWOOOB
+BOWWKWWBB
+BOOOWOOOB
+OOOOWOOOO
+OOOOBOOOO
+OOOBBBOOO
+-
+D
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut movePawn
+BUONO: Movimento pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkCaptureBlack
+BUONO: Stabilito un pareggio per troppe mosse senza mangiare
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+BUONO: Stato: OOOBBBOOO
+OOOOBOOOO
+OOOOWOOOO
+BBOOWOOOB
+BOWWKWWBB
+BOOOWOOOB
+OOOOWOOOO
+OOOBBOOOO
+OOOOBBOOO
+-
+D
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut movePawn
+BUONO: Movimento pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkCaptureBlack
+BUONO: Stabilito un pareggio per troppe mosse senza mangiare
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+BUONO: Stato: OOOBBBOOO
+OOOBOOOOO
+OOOOWOOOO
+BBOOWOOOB
+BOWWKWWBB
+BOOOWOOOB
+OOOOWOOOO
+OOOBBOOOO
+OOOOBBOOO
+-
+D
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut movePawn
+BUONO: Movimento pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkCaptureBlack
+BUONO: Stabilito un pareggio per troppe mosse senza mangiare
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+BUONO: Stato: OOOBBBOOO
+OOOBOOOOO
+OOOOWOOOO
+BBOOWOOOB
+BOWWKWWBB
+BOOOWOOOB
+OOOOWOOOO
+OOOBBBOOO
+OOOOBOOOO
+-
+D
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut movePawn
+BUONO: Movimento pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkCaptureBlack
+BUONO: Stabilito un pareggio per troppe mosse senza mangiare
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+BUONO: Stato: OOOBBBOOO
+OOOBOOOOO
+OOOOWOOOO
+BBOOWOOBB
+BOWWKWWOB
+BOOOWOOOB
+OOOOWOOOO
+OOOBBBOOO
+OOOOBOOOO
+-
+D
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut movePawn
+BUONO: Movimento pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkCaptureBlack
+BUONO: Stabilito un pareggio per troppe mosse senza mangiare
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+BUONO: Stato: OOOBBBOOO
+OOOBOOOOO
+OOOOWOOOO
+BBOOWOOBB
+BOWWKWWOB
+BOOOWOOBO
+OOOOWOOOO
+OOOBBBOOO
+OOOOBOOOO
+-
+D
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 08, 2019 4:25:11 PM it.unibo.ai.didattica.competition.tablut.domain.GameTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina

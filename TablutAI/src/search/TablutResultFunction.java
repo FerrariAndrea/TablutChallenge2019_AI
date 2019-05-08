@@ -19,7 +19,8 @@ public class TablutResultFunction implements ResultFunction {
 	
 			
 		try {
-			return GameTablutSingleton.getInstance().checkMove((AITablutState) o, a);
+			//System.out.println("TablutResultFunction->" + ((AITablutState) o).getState().getTurn().toString());
+			return GameTablutMover.checkMove((AITablutState) o, a);
 		} catch (BoardException | ActionException | StopException | PawnException | DiagonalException
 				| ClimbingException | ThroneException | OccupitedException | IOException e) {
 			// TODO Auto-generated catch block
